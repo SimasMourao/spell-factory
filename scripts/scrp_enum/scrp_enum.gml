@@ -1,0 +1,30 @@
+enum ELEMENTAL
+{
+	FIRE,
+	THUNDER,
+	WIND
+}
+
+enum SHOOTER
+{
+	MARK,
+	ESPHERE,
+	PULL
+}
+
+enum RAM
+{
+	PUSH,
+	DASH,
+	SPINNER
+}
+
+enum MODALITY
+{
+	PULSE,
+	WALL,
+	HALLWAY,
+	RING,
+	COMPRESSION,
+	SWARM
+}

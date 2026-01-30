@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrp_calculate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrp_calculate",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrp_spell_struct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrp_spell_struct",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
