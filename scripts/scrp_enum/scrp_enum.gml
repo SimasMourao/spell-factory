@@ -1,5 +1,6 @@
 enum ELEMENTAL
 {
+	VOID,
 	FIRE,
 	THUNDER,
 	WIND
@@ -7,13 +8,15 @@ enum ELEMENTAL
 
 enum SHOOTER
 {
+	VOID,
 	MARK,
-	ESPHERE,
+	SPHERE,
 	PULL
 }
 
 enum RAM
 {
+	VOID,
 	PUSH,
 	DASH,
 	SPINNER
@@ -21,6 +24,7 @@ enum RAM
 
 enum MODALITY
 {
+	VOID,
 	PULSE,
 	WALL,
 	HALLWAY,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrp_modality",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrp_modality",
+  "parent":{
+    "name":"spells_components",
+    "path":"folders/Scripts/spells_components.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

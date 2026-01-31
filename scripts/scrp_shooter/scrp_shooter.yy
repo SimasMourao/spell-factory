@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrp_shooter",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrp_shooter",
+  "parent":{
+    "name":"spells_components",
+    "path":"folders/Scripts/spells_components.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
