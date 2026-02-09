@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pulse",
+  "%Name":"obj_fire_spell",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pulse",
+  "name":"obj_fire_spell",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_modality",
-    "path":"folders/Objects/obj_spells/obj_modality.yy",
+    "name":"obj_element",
+    "path":"folders/Objects/obj_spells/obj_type/obj_element.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pulse",
-    "path":"sprites/spr_pulse/spr_pulse.yy",
+    "name":"spr_fire_spell",
+    "path":"sprites/spr_fire_spell/spr_fire_spell.yy",
   },
   "spriteMaskId":null,
   "visible":true,

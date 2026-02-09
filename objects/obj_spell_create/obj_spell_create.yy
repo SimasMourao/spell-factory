@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spell",
+  "%Name":"obj_spell_create",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spell",
+  "name":"obj_spell_create",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

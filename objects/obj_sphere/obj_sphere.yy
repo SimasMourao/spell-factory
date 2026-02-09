@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_shooter",
-    "path":"folders/Objects/obj_spells/obj_tyoe/obj_shooter.yy",
+    "path":"folders/Objects/obj_spells/obj_type/obj_shooter.yy",
   },
   "parentObjectId":null,
   "persistent":false,

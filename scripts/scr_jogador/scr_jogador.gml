@@ -1,4 +1,4 @@
-function movimento_jogador(t_right, t_left, t_up, t_down, colide){
+function movement_player(t_right, t_left, t_up, t_down, colide){
 var right = keyboard_check(t_right);
 var left = keyboard_check(t_left);
 var up = keyboard_check(t_up);

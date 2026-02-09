@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_check_range",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_check_range",
+  "parent":{
+    "name":"general_use",
+    "path":"folders/Scripts/general_use.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
