@@ -1,8 +1,12 @@
-spd = 5
+spd = 9
 
 direction = point_direction(obj_player.x,obj_player.y, mouse_x, mouse_y);
+image_angle = point_direction(obj_player.x,obj_player.y, mouse_x, mouse_y);
 
-duration = 30;
+damage = 1;
+
+
+duration = 45;
 
 goal = false;
 range = 45;

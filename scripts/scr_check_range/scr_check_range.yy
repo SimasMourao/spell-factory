@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_check_range",
   "parent":{
-    "name":"general_use",
-    "path":"folders/Scripts/general_use.yy",
+    "name":"scr_general_use",
+    "path":"folders/Scripts/scr_general_use.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

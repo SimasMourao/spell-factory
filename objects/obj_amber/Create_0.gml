@@ -1,0 +1,1 @@
+//image_angle = point_direction(obj_fire_spell.x,obj_fire_spell.y, mouse_x, mouse_y);

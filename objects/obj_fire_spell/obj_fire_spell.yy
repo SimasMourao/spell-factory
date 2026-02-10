@@ -9,8 +9,8 @@
   "name":"obj_fire_spell",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_element",
-    "path":"folders/Objects/obj_spells/obj_type/obj_element.yy",
+    "name":"obj_fire_spell",
+    "path":"folders/Objects/obj_spells/obj_type/obj_element/obj_fire_spell.yy",
   },
   "parentObjectId":null,
   "persistent":false,

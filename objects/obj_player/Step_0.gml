@@ -1,3 +1,5 @@
+
+
 var _up, _down, _left, _right, _click, _scroll_up, _scroll_down;
 _up = keyboard_check(ord("W"));
 _down = keyboard_check(ord("S"));
@@ -50,12 +52,17 @@ if(_scroll_down)
 
 #endregion
 
-
+cooldown_click--;
 
 if(_click)
 {
-
-	var _inst;
-	_inst = instance_create_layer(x, y, "Instances", choice);
-
+	
+	
+	if(cooldown_click <= 0)
+	{
+		var _inst;
+		_inst = instance_create_layer(x, y, "Instances", choice);
+		
+		cooldown_click = 25;
+	}
 }

@@ -1,2 +1,0 @@
-function ram_dash()
-{}

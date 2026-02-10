@@ -4,6 +4,8 @@ spd = 2;
 
 cooldown_scroll = 3;
 
+cooldown_click = 0;
+
 ind = 0;
 grimore = [obj_sphere, obj_pulse, obj_fire_spell];
 choice = grimore[ind];

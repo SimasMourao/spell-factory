@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"spr_modality",
-    "path":"folders/Sptites/spr_spells/spr_modality.yy",
+    "path":"folders/Sprites/spr_spells/spr_modality.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

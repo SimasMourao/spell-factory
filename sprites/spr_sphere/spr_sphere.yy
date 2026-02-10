@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"spr_shooter",
-    "path":"folders/Sptites/spr_spells/spr_type/spr_shooter.yy",
+    "path":"folders/Sprites/spr_spells/spr_type/spr_shooter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"spr_efx",
-    "path":"folders/Sptites/spr_efx.yy",
+    "path":"folders/Sprites/spr_efx.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

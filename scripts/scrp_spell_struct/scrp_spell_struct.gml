@@ -1,5 +1,4 @@
-function void_effects()
-{}
+
 
 
 function spell(_id, _name, _element, _type, _modal, _charge, _range) constructor{

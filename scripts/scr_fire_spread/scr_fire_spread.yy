@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrp_ram",
+  "%Name":"scr_fire_spread",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrp_ram",
+  "name":"scr_fire_spread",
   "parent":{
-    "name":"spells_components",
-    "path":"folders/Scripts/spells_components.yy",
+    "name":"scr_spells",
+    "path":"folders/Scripts/scr_spells.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
