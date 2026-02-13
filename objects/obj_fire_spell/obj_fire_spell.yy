@@ -3,16 +3,18 @@
   "%Name":"obj_fire_spell",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_fire_spell",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_fire_spell",
-    "path":"folders/Objects/obj_spells/obj_type/obj_element/obj_fire_spell.yy",
+    "path":"folders/Objects/obj_spells/obj_fire_spell.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_spells",
+    "path":"objects/par_spells/par_spells.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

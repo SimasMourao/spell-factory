@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_amber",
+  "%Name":"spr_fire_trail",
   "bboxMode":0,
-  "bbox_bottom":12,
-  "bbox_left":3,
-  "bbox_right":12,
-  "bbox_top":3,
+  "bbox_bottom":11,
+  "bbox_left":4,
+  "bbox_right":11,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"14990024-95fc-46be-ad37-0f1cbb965cc5","blendMode":0,"displayName":"default","isLocked":false,"name":"14990024-95fc-46be-ad37-0f1cbb965cc5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_amber",
+  "name":"spr_fire_trail",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"fire_efx",
-    "path":"folders/Sprites/spr_spells/spr_element/spr_fire_spell/fire_efx.yy",
+    "name":"spr_element",
+    "path":"folders/Sprites/spr_spells/spr_type/spr_element.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_amber",
+    "%Name":"spr_fire_trail",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_amber",
+    "name":"spr_fire_trail",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f81e4f2c-2426-4241-b310-d1561634ec1f","path":"sprites/spr_amber/spr_amber.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f81e4f2c-2426-4241-b310-d1561634ec1f","path":"sprites/spr_fire_trail/spr_fire_trail.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e8975afc-ed17-416f-b975-2ecb9c4505b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

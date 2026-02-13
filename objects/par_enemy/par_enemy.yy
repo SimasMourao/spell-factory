@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spell_create",
+  "%Name":"par_enemy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spell_create",
+  "name":"par_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_spells",
-    "path":"folders/Objects/obj_spells.yy",
+    "name":"obj_parents",
+    "path":"folders/Objects/obj_parents.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_entity",
+    "path":"objects/par_entity/par_entity.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

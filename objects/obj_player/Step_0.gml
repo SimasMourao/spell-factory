@@ -1,4 +1,4 @@
-
+event_inherited();
 
 var _up, _down, _left, _right, _click, _scroll_up, _scroll_down;
 _up = keyboard_check(ord("W"));
@@ -13,6 +13,7 @@ _scroll_down = mouse_wheel_down();
 movement_player(_right, _left, _up, _down, obj_wall);
 
 #region //trocar feitiço
+
 if(_scroll_up)
 {
 	cooldown_scroll --;

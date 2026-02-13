@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pulse",
+  "%Name":"par_entity",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pulse",
+  "name":"par_entity",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_modality",
-    "path":"folders/Objects/obj_spells/obj_modality.yy",
+    "name":"obj_parents",
+    "path":"folders/Objects/obj_parents.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_solid",
+    "path":"objects/par_solid/par_solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_pulse",
-    "path":"sprites/spr_pulse/spr_pulse.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

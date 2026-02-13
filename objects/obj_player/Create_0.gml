@@ -1,13 +1,15 @@
-hspd = 0;
-vspd = 0;
-spd = 2;
+event_inherited();
+
+is_solid = false;
+
+can_take_damage = false;
 
 cooldown_scroll = 3;
 
 cooldown_click = 0;
 
 ind = 0;
-grimore = [obj_sphere, obj_pulse, obj_fire_spell];
+grimore = [obj_sphere, obj_fire_spell];
 choice = grimore[ind];
 
 rangex = 0;

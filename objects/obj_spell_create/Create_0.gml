@@ -1,1 +1,0 @@
-_spell = new spell(1, "Ignis ring", ELEMENTAL.FIRE, SHOOTER.SPHERE, MODALITY.RING, 3, 500);

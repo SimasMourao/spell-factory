@@ -4,7 +4,7 @@ function check_range(){
 	
 	_dir = point_distance(x, y, origem_x, origem_y);
 	
-	if(_dir > range)
+	if(_dir >= range)
 	{
 		goal = true;
 	}
