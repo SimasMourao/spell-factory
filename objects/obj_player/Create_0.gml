@@ -1,8 +1,8 @@
 event_inherited();
 
 is_solid = false;
-
-can_take_damage = false;
+is_player = true;
+can_take_damage = true;
 
 cooldown_scroll = 3;
 
@@ -14,3 +14,4 @@ choice = grimore[ind];
 
 rangex = 0;
 rangey = 0;
+

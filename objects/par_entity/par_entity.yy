@@ -12,10 +12,7 @@
     "name":"obj_parents",
     "path":"folders/Objects/obj_parents.yy",
   },
-  "parentObjectId":{
-    "name":"par_solid",
-    "path":"objects/par_solid/par_solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

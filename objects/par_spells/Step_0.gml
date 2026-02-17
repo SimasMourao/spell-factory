@@ -5,8 +5,23 @@ check_range();
 
 if(goal == true)
 {
-	instance_destroy();
+	if(obj_destroy != noone){
+		instance_create_layer(x, y, "Instances", obj_destroy);
+		
+		if(instance_exists(obj_destroy))
+		{
+			instance_destroy();
+		}
+	}
+	
+	else
+	{
+		instance_destroy();
+	}
+
 }
 
-instance_create_layer(x, y, "Instances", obj_efx);
-
+if(obj_efx != noone)
+{
+	instance_create_layer(x, y, "Instances", obj_efx);
+}

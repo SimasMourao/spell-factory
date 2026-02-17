@@ -1,6 +1,7 @@
 spd = 3;
 
-obj_efx = obj_trail;
+obj_efx = noone;
+obj_destroy = noone;
 
 damage = 1;
 cost = 1;

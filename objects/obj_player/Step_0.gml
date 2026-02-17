@@ -61,8 +61,13 @@ if(_click)
 	
 	if(cooldown_click <= 0)
 	{
-		var _inst;
-		_inst = instance_create_layer(x, y, "Instances", choice);
+		var _inst, _angle, _dist, _offsetx, _offsety;
+		
+		_angle = point_direction(x, y, mouse_x, mouse_y);
+		_offsetx = lengthdir_x(25, _angle);
+		_offsety = lengthdir_y(25, _angle);
+		
+		_inst = instance_create_layer(x + _offsetx, y + _offsety, "Instances", choice);
 		
 		cooldown_click = 25;
 	}

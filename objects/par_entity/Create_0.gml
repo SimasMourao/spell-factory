@@ -1,4 +1,6 @@
-event_inherited();
+is_solid= true;
+is_player = false;
+is_enemy = false;
 
 can_take_damage = true;
 
@@ -12,17 +14,17 @@ current_life = total_life;
 total_mana = 10;
 current_mana = total_mana;
 
-function take_damage(_amount)
+take_damage = function (_amount)
 {
 	current_life -= _amount
 	
 	if(current_life <= 0)
 	{
-		die();
+		self.death();
 	}
 }
 
-function die()
+death = function ()
 {
 	instance_destroy();
 }

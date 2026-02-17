@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"par_solid",
+  "%Name":"obj_amber",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"par_solid",
+  "name":"obj_amber",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_parents",
-    "path":"folders/Objects/obj_parents.yy",
+    "name":"obj_fire_spell",
+    "path":"folders/Objects/obj_spells/obj_fire_spell.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_amber",
+    "path":"sprites/spr_amber/spr_amber.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

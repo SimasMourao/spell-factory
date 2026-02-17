@@ -1,6 +1,6 @@
 event_inherited();
 
-function die()
+death = function()
 {
-		current_life = total_life;
+	current_life = total_life;
 }
