@@ -6,6 +6,8 @@ obj_destroy = noone;
 damage = 1;
 cost = 1;
 
+par_entity.mana_cost(cost);
+
 goal = false;
 range = 90;
 
