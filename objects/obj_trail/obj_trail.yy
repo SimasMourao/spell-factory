@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_sphere_spell",
-    "path":"folders/Objects/obj_spells/obj_sphere_spell.yy",
+    "path":"folders/ARCHIVE/obj_spells/obj_sphere_spell.yy",
   },
   "parentObjectId":null,
   "persistent":false,

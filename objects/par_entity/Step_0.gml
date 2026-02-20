@@ -7,5 +7,5 @@ _time_regen--;
 if(_time_regen <= 0)
 {
 	mana_regen();
-	 _time_regen = 60;
+	 _time_regen = 1;
 }

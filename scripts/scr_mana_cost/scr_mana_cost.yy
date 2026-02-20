@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrp_enum",
+  "%Name":"scr_mana_cost",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrp_enum",
+  "name":"scr_mana_cost",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"mana_cost",
+    "path":"folders/Scripts/scr_general_use/mana_cost.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

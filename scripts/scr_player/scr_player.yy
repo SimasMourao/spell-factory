@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrp_spell_struct",
+  "%Name":"scr_player",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrp_spell_struct",
+  "name":"scr_player",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"scr_player",
+    "path":"folders/Scripts/scr_player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

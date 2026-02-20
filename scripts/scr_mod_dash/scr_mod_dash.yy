@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_mod_dash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mod_dash",
+  "parent":{
+    "name":"mod_dash",
+    "path":"folders/Scripts/scr_module_spells/module_type/mod_dash.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

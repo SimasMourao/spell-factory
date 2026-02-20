@@ -9,8 +9,8 @@
   "name":"par_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_parents",
-    "path":"folders/Objects/obj_parents.yy",
+    "name":"par_enemys",
+    "path":"folders/Objects/obj_entitys/par_enemys.yy",
   },
   "parentObjectId":{
     "name":"par_entity",

@@ -55,7 +55,7 @@ if(_scroll_down)
 
 cooldown_click--;
 
-if(current_mana != 0)
+if(current_mana > 0 )
 {
 	if(_click)
 	{

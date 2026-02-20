@@ -1,5 +1,0 @@
-
-
-function fire_spread(){
-	
-}

@@ -10,8 +10,8 @@
   "name":"par_spells",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_parents",
-    "path":"folders/Objects/obj_parents.yy",
+    "name":"obj_spells",
+    "path":"folders/ARCHIVE/obj_spells.yy",
   },
   "parentObjectId":null,
   "persistent":false,

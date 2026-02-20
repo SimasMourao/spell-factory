@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_fire_spell",
-    "path":"folders/Objects/obj_spells/obj_fire_spell.yy",
+    "path":"folders/ARCHIVE/obj_spells/obj_fire_spell.yy",
   },
   "parentObjectId":{
     "name":"par_spells",

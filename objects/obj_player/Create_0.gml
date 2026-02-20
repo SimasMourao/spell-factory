@@ -4,6 +4,9 @@ is_solid = false;
 is_player = true;
 can_take_damage = true;
 
+total_mana = 150;
+current_mana = total_mana;
+
 cooldown_scroll = 3;
 
 cooldown_click = 0;

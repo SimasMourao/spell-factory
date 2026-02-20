@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_mod_fire",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mod_fire",
+  "parent":{
+    "name":"mod_fire",
+    "path":"folders/Scripts/scr_module_spells/module_type/mod_fire.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

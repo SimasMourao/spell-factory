@@ -12,8 +12,10 @@ current_life = total_life;
 
 total_mana = 10;
 current_mana = total_mana;
- _time_regen = 60;
+ _time_regen = 5;
 
+target_x_caster = noone;
+target_y_caster = noone;
 
 take_damage = function (_amount)
 {

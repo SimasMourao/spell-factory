@@ -4,7 +4,7 @@ obj_efx = noone;
 obj_destroy = noone;
 
 damage = 1;
-cost = 1;
+cost = 50;
 
 par_entity.mana_cost(cost);
 

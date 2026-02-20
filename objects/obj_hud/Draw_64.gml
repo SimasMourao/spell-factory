@@ -2,7 +2,7 @@
 
 var _width_bar_mana, _wdth_spr_total_mana, _x;
 
-_wdth_spr_total_mana = sprite_get_width(spr_tot_lateral_mana_p);
+_wdth_spr_total_mana = sprite_get_width(spr_cur_mana_p);
 
 _width_bar_mana = player.total_mana * _wdth_spr_total_mana;
 

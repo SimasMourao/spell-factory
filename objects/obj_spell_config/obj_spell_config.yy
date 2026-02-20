@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_amber",
+  "%Name":"obj_spell_config",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_amber",
+  "name":"obj_spell_config",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_fire_spell",
-    "path":"folders/Objects/obj_spells/obj_fire_spell.yy",
+    "name":"obj_spells",
+    "path":"folders/Objects/obj_spells.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_amber",
-    "path":"sprites/spr_amber/spr_amber.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
