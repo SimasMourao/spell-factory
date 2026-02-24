@@ -6,23 +6,26 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 ---
 ## 🔎 Status do projeto
-**Em desenvolvimento**
+Em desenvolvimento
 
 ---
 ## 🌟 Funcionalidades
 --
 ---
 ## 🏗️ Arquitetura
-*Hierarquia
-
-*Responsabilidades
-
-*Padrão utilizado
+### Responsabilidades
+    obj_create_spell — armazena os módulos dos feitiços
+    obj_spell_inst — executa o feitiço
+    par_entity — classe de todos os objetos com vida e mana
+    obj_player — movimento, ataque, criar instancia do obj_spell_inst
+    obj_hud — apresentar os parâmetros do jogador
+    
+### Padrão utilizado
 
 ---
 ## 🕹️ Controles
-teclado ⌨️
-  Movientação:
+### ⌨️ teclado  
+  #### Movimentação:      
     W — Mover para cima
 
     A — Mover para esquerda
@@ -31,41 +34,53 @@ teclado ⌨️
 
     D — Mover para direita
 
-  Sistema:
+  #### Sistema:   
     Esc — pausar
 
     Shift — mudar magia equipada
   
     E: abre e fecha inventário
 
-mouse 🖱️
-  Esquerdo: lançar magia
+  #### 🖱️ mouse  
+    Esquerdo: lançar magia
+    
+    Posição do cursor: define direção ou alvo da magia
      
 ---
 ## 🔌 Tecnologias
-* Engine:
-  GameMaker Studio 2 - versão
+### Engine:  
+    GameMaker Studio 2 - versão 2024.14.2.213
     
-* Linguagem:
-  GML (GameMaker Language)  
+### Linguagem: 
+    GML (GameMaker Language)  
     
-* Paradigmas:
-  * Separação de dados
-  * Sistema modular orientado a componentes
-  * Programação orientado a eventos
-  * Estrutura orientada a dados
+### Paradigmas:  
+    * Separação de responsábilidade
+    * Sistema modular orientado a componentes
+    * Programação orientado a eventos
+    * Estrutura orientada a dados
 ---
 ## 📖 Roteiro
-Curto prazo
 
-Médio prazo
+### Curto prazo
+    Sistema de vida e mana
+    Ciclo de morte e restart
+    Inimigo funcional
+    Refatoração do sistema dos feitiços
 
-Longo prazo
-  * Adiconar gamepad como opção de controle  
+### Médio prazo
+    Salvamento dos feitiços
+    Criação, exclusão e atualização de saves
+    Chefe funcional
+
+### Longo prazo
+    Adiconar gamepad como opção de controle  
+    Trilha sonora
+    Melhorar sprites e animações
 ---
 ## 📷 Demonstração
 
 ---
 ## 🖊️ Autor
-Gustavo Simas Mourão  
-Estudante de Ciência da Computação  
+**Gustavo Simas Mourão**  
+**Estudante de Ciência da Computação**  
