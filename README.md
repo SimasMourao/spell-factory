@@ -10,22 +10,44 @@ Em desenvolvimento
 
 ---
 ## 🌟 Funcionalidades
---
+*        
+---
+## 🧩 Módulos disponíveis (v1.0.0)
+### Módulos previstos para serem adicionados até a primeira versão estável do projeto:
+
+* scr_mod_fire: aplica dano contínuo numa área pequena ao redor do conjurador
+* scr_mod_lightning: paralizar os alvos dentro de uma área
+* scr_mod_wind: corrente de ar. alvos que vão contra corrente se movem mais devagar
+* scr_mod_projectile: envia um projétil rápido na direção do cursor
+* scr_mod_dash: desloca o obj_player para a direção que está se movendo
+* scr_mod_push: empurra alvo até colidir com objeto solido
+* scr_mod_pulse: emite uma onda radial a partir do conjurador, revelando entidades e/ ou aplicando efeitos
+* scr_mod_wall: cria uma instância sólida na direção do cursor
+* scr_mod_ring: cria três (3) instâncias que orbitam o conjurador
+    
 ---
 ## 🏗️ Arquitetura
 ### Responsabilidades
-    obj_create_spell — armazena os módulos dos feitiços
-    obj_spell_inst — executa o feitiço
     par_entity — classe de todos os objetos com vida e mana
-    obj_player — movimento, ataque, criar instancia do obj_spell_inst
-    obj_hud — apresentar os parâmetros do jogador
     
-### Padrão utilizado
+    obj_player — movimento, ataque, criar instancia do obj_spell_inst
+    
+    obj_hud — apresentar os parâmetros do jogador
+
+    obj_create_spell — armazena os módulos dos feitiços
+    
+    obj_spell_inst — executa o feitiço
+
+    scr_mod_* — módulos que ditam o comportamento do feitiço
+
+    
+### ⚙️ Padrão utilizado
 
 ---
 ## 🕹️ Controles
 ### ⌨️ teclado  
-  #### Movimentação:      
+    Movimentação:      
+    
     W — Mover para cima
 
     A — Mover para esquerda
@@ -34,14 +56,16 @@ Em desenvolvimento
 
     D — Mover para direita
 
-  #### Sistema:   
+
+    Sistema:   
+   
     Esc — pausar
 
     Shift — mudar magia equipada
   
     E: abre e fecha inventário
 
-  #### 🖱️ mouse  
+#### 🖱️ mouse  
     Esquerdo: lançar magia
     
     Posição do cursor: define direção ou alvo da magia
@@ -55,28 +79,49 @@ Em desenvolvimento
     GML (GameMaker Language)  
     
 ### Paradigmas:  
-    * Separação de responsábilidade
-    * Sistema modular orientado a componentes
-    * Programação orientado a eventos
-    * Estrutura orientada a dados
+     Separação de responsábilidade
+     
+     Sistema modular orientado a componentes
+     
+     Programação orientado a eventos
+     
+     Estrutura orientada a dados
 ---
 ## 📖 Roteiro
 
 ### Curto prazo
-    Sistema de vida e mana
-    Ciclo de morte e restart
-    Inimigo funcional
-    Refatoração do sistema dos feitiços
+
+* Sistema de vida e mana
+   
+* Ciclo de morte e restart
+    
+* Inimigo funcional
+    
+* Refatoração do sistema dos feitiços
+
+* Conjunto inicial de módulos:
+    * scr_mod_projectlie: envia um projétil rápido na direção do cursor
+    * scr_mod_fire: cria uma área pequena ao redor do obj_player que dá dano contínuo
+    * scr_mod_wall: cria uma instância sólida na direção da posição do cursor
+    * scr_dash: desloca o obj_player para a direção que está se momendo 
 
 ### Médio prazo
-    Salvamento dos feitiços
-    Criação, exclusão e atualização de saves
-    Chefe funcional
+
+* Sistema de charge de feitços baseado em tempo
+
+* Salvamento dos feitiços
+   
+* Criação, exclusão e atualização de saves
+    
+* Chefe funcional
 
 ### Longo prazo
-    Adiconar gamepad como opção de controle  
-    Trilha sonora
-    Melhorar sprites e animações
+
+* Adiconar gamepad como opção de controle  
+    
+* Trilha sonora
+    
+* Melhorar sprites e animações
 ---
 ## 📷 Demonstração
 
