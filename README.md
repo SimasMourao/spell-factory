@@ -1,26 +1,22 @@
 # 🧙🏭 Spell Factory
 
 ## 📰 Resumo
-Spell Factory é um sistema de criação modular de feitiços que permite ao jogador construir habilidades únicas a partir de componentes combináveis. Cada módulo funciona individualmente, mas também interage com outros, possibilitando novas formas de gameplay e alta customização de magia. O projeto visa boa escalabilidade e organização, por meio de uma arquitetura orientada a componentes.
-
-
+Spell Factory é um sistema de criação modular de feitiços que permite ao jogador construir habilidades únicas a partir de componentes combináveis. Cada módulo funciona individualmente, mas também interage com outros, possibilitando novas formas de gameplay e alta customização de magia. O projeto visa boa escalabilidade e organização, por meio de uma arquitetura orientada a componentes.  
 ---
 ## 🔎 Status do projeto
 
-⌛ Em desenvolvimento
-
+⌛ Em desenvolvimento  
 
 ---
 ## 🌟 Funcionalidades
 
-### ↗️ Progressão do jogador
+#### ↗️ Progressão do jogador
 
 * Aumentar atributos do jogador
 
-* Alterar os parâmetros dos feitiços
+* Alterar os parâmetros dos feitiços  
 
-
-### 📜 Sistema de feitiços
+#### 📜 Sistema de feitiços
 
 * Nomear feitiços
 
@@ -28,12 +24,10 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 * Combinar módulos para criar novos feitiços
 
-
-### 💾 Sistema de save
+#### 💾 Sistema de save
 
 * Criar, excluir, salvar e copiar saves
-
-
+  
 ---
 ## 🧩 Módulos disponíveis (v1.0.0)
 **Módulos previstos para serem adicionados até a primeira versão estável do projeto:**
@@ -50,17 +44,15 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 * scr_mod_push: empurrar alvo até colidir com objeto sólido
 
-* scr_mod_pulse: emitir onda radial a partir do conjurador, revelando entidades
+* scr_mod_pulse: emitir onda radial a partir do conjurador
 
 * scr_mod_wall: criar instância sólida na direção do cursor
 
-* scr_mod_ring: criar três (3) instâncias que orbitam o conjurador
-
-
+* scr_mod_ring: adicionar instâncias que orbitam o conjurador  
 ---
 ## 🏗️ Arquitetura
 
-### Responsabilidades
+#### Responsabilidades
 
       par_entity — representar a classe base de todos os objetos com vida e mana
       
@@ -73,12 +65,11 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
       obj_spell_inst — executar o feitiço
       
       scr_mod_* — modificar estados, adcionar comportamento e registrar eventos
-
-
+  
 ---
 ## 🕹️ Controles
 
-### ⌨️ teclado
+#### ⌨️ teclado
 
       Movimentação:      
 
@@ -99,25 +90,24 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
       
             E — abrir e fechar inventário
 
-### 🖱️ mouse
+#### 🖱️ mouse
 
       Botão esquerdo — lançar magia
 
       Posição do cursor — definir direção ou alvo da magia
-
-
+  
  ---
 ## 🔌 Tecnologias
 
-### Engine:
+#### Engine:
 
       GameMaker Studio 2 - versão 2024.14.2.213
 
-### Linguagem:
+#### Linguagem:
 
       GML (GameMaker Language)  
 
-### Paradigmas:
+#### Paradigmas:
    
       Separação de responsabilidade
  
@@ -126,12 +116,11 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
       Programação orientada a eventos
  
       Estrutura orientada a dados
-
-
+  
  ---
 ## 📖 Roteiro
 
-### Curto prazo
+#### Curto prazo
 
 * Implementar sistema de vida e mana
 
@@ -151,7 +140,7 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
    * scr_mod_dash
 
-### Médio prazo
+#### Médio prazo
 
 * Implementar sistema de carregamento de feitiços baseado em tempo
 
@@ -161,7 +150,7 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 * Criar chefe funcional
 
-### Longo prazo
+#### Longo prazo
 
 * Adicionar gamepad como opção de controle
 
@@ -170,14 +159,12 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 * Melhorar sprites e animações
 
 * Criar o restante dos módulos da v1.0.0
-
-
+  
 ---
 ## 📷 Demonstração
-
-
+  
 ---
 ## 🖊️ Autor
 
-**Gustavo Simas Mourão**
+**Gustavo Simas Mourão**  
 **Estudante de Ciência da Computação**
