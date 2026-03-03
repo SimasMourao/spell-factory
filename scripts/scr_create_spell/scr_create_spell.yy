@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_create_spell",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_create_spell",
+  "parent":{
+    "name":"create_spell",
+    "path":"folders/Scripts/scr_general_use/create_spell.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

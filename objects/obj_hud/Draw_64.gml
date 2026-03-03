@@ -36,9 +36,6 @@ for(var i = 1; i <= player.current_mana; i ++)
 	draw_sprite_ext(spr_cur_mana_p, 0, 40 + _wdth_spr_total_mana * i, 50, 2, 2, 0, c_white, 1);
 
 }
-
-draw_text_colour(40, 600, player.ind, c_black,  c_black, c_black, c_black, 1);
-
-draw_text_colour(40, 640, player.choice, c_black,  c_black, c_black, c_black, 1);
+draw_text(90 , 600, spell.modules);
 
 #endregion

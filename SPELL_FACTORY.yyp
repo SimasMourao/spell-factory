@@ -28,6 +28,7 @@
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"scr_general_use","folderPath":"folders/Scripts/scr_general_use.yy","name":"scr_general_use","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"check_range","folderPath":"folders/Scripts/scr_general_use/check_range.yy","name":"check_range","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"create_spell","folderPath":"folders/Scripts/scr_general_use/create_spell.yy","name":"create_spell","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"mana_cost","folderPath":"folders/Scripts/scr_general_use/mana_cost.yy","name":"mana_cost","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"scr_module_spells","folderPath":"folders/Scripts/scr_module_spells.yy","name":"scr_module_spells","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"module_form","folderPath":"folders/Scripts/scr_module_spells/module_form.yy","name":"module_form","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -57,7 +58,9 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"MAGE-20260225-120211.piskel","CopyToMask":-1,"filePath":"datafiles","name":"MAGE-20260225-120211.piskel","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -71,7 +74,7 @@
     {"id":{"name":"obj_fire_trail","path":"objects/obj_fire_trail/obj_fire_trail.yy",},},
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_spell_config","path":"objects/obj_spell_config/obj_spell_config.yy",},},
+    {"id":{"name":"obj_spell_inst","path":"objects/obj_spell_inst/obj_spell_inst.yy",},},
     {"id":{"name":"obj_sphere_destroy","path":"objects/obj_sphere_destroy/obj_sphere_destroy.yy",},},
     {"id":{"name":"obj_sphere","path":"objects/obj_sphere/obj_sphere.yy",},},
     {"id":{"name":"obj_trail","path":"objects/obj_trail/obj_trail.yy",},},
@@ -82,6 +85,7 @@
     {"id":{"name":"par_spells","path":"objects/par_spells/par_spells.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_check_range","path":"scripts/scr_check_range/scr_check_range.yy",},},
+    {"id":{"name":"scr_create_spell","path":"scripts/scr_create_spell/scr_create_spell.yy",},},
     {"id":{"name":"scr_mana_cost","path":"scripts/scr_mana_cost/scr_mana_cost.yy",},},
     {"id":{"name":"scr_mod_dash","path":"scripts/scr_mod_dash/scr_mod_dash.yy",},},
     {"id":{"name":"scr_mod_fire","path":"scripts/scr_mod_fire/scr_mod_fire.yy",},},
