@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_percent_spell_spd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_percent_spell_spd",
+  "parent":{
+    "name":"percent_spell_spd",
+    "path":"folders/Scripts/scr_general_use/percent_spell_spd.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

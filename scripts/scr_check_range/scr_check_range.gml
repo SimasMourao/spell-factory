@@ -6,6 +6,6 @@ function check_range(){
 	
 	if(_dir >= range)
 	{
-		goal = true;
+		instance_destroy();
 	}
 }

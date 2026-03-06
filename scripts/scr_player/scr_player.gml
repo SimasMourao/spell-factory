@@ -1,4 +1,4 @@
-function movement_player(t_right, t_left, t_up, t_down, colide){
+function movement_player(_spd, t_right, t_left, t_up, t_down, colide){
 var right = keyboard_check(t_right);
 var left = keyboard_check(t_left);
 var up = keyboard_check(t_up);
@@ -9,8 +9,8 @@ var vspd = down - up;
 var move = hspd != 0 || vspd != 0;
 
 var dir = point_direction(0, 0, hspd, vspd);
-var lengx = lengthdir_x(spd * move, dir);
-var lengy = lengthdir_y(spd * move, dir);
+var lengx = lengthdir_x(_spd * move, dir);
+var lengy = lengthdir_y(_spd * move, dir);
 
 if(place_meeting(x + lengx, y, colide)){
 	while !place_meeting(x + sign(lengx), y, colide){

@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"Object15",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"Object15",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_player",
-    "path":"folders/Objects/obj_entitys/obj_player.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"par_entity",
-    "path":"objects/par_entity/par_entity.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mage",
-    "path":"sprites/spr_mage/spr_mage.yy",
+    "name":"spr_barrier_spell",
+    "path":"sprites/spr_barrier_spell/spr_barrier_spell.yy",
   },
   "spriteMaskId":null,
   "visible":true,

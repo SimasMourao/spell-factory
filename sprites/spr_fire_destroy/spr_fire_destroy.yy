@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"spr_element",
-    "path":"folders/Sprites/spr_spells/spr_type/spr_element.yy",
+    "name":"fire_spell",
+    "path":"folders/Sprites/spr_spells/fire_spell.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

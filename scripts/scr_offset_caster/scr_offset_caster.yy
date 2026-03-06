@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_offset_caster",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_offset_caster",
+  "parent":{
+    "name":"offset_caster",
+    "path":"folders/Scripts/scr_general_use/offset_caster.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

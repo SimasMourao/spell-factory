@@ -8,12 +8,12 @@ _up = keyboard_check(ord("W"));
 _down = keyboard_check(ord("S"));
 _left = keyboard_check(ord("A"));
 _right = keyboard_check(ord("D"));
+_click = mouse_check_button_released(mb_left);
 
-_click = mouse_check_button(mb_left);
+movement_player(spd, _right, _left, _up, _down, obj_spell_inst);
 
-movement_player(_right, _left, _up, _down, obj_wall);
 
 if(_click)
 {
-	create_spell(id, [mod_projectle(), mod_fire()]);
+	create_spell(id, [mod_pulse()]);
 }

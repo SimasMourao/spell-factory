@@ -1,0 +1,3 @@
+depth = -y;
+
+solid = true;

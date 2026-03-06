@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"spr_modality",
-    "path":"folders/Sprites/spr_spells/spr_modality.yy",
+    "name":"pulse_spell",
+    "path":"folders/Sprites/spr_spells/pulse_spell.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

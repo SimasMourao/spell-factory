@@ -8,6 +8,10 @@ origin_y = 0;
 target_x = 0;
 target_y = 0;
 
+
+base_spell_sprite = 0;
+visual_layer = [];
+dir = 0;
 init_spell = function (_caster, _modules)
 {
 	caster = _caster;

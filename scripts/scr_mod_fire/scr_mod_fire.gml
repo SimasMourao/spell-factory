@@ -4,12 +4,12 @@ function mod_fire(){
     return 
     {
         name: "fire",
-        damage: 1,
-        spd: 2,
+        damage_spell: 1,
+        spell_spd: 2,
         
         on_create: function(_spell)
         {
-			_spell.sprite_index = spr_fire_spell;
+			_spell.base_spell_sprite = spr_fire_spell;
             _spell.direction = point_direction(
                 _spell.origin_x,
                 _spell.origin_y,
@@ -20,8 +20,8 @@ function mod_fire(){
         
         on_step: function(_spell)
         {
-            _spell.x += lengthdir_x(self.spd, _spell.direction);
-            _spell.y += lengthdir_y(self.spd, _spell.direction);
+            _spell.x += lengthdir_x(spell_spd, _spell.direction);
+            _spell.y += lengthdir_y(spell_spd, _spell.direction);
         }
     };
 }

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_training_dummy",
-    "path":"sprites/spr_training_dummy/spr_training_dummy.yy",
+    "name":"spr_dummy",
+    "path":"sprites/spr_dummy/spr_dummy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

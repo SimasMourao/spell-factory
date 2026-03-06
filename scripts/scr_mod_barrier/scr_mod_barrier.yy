@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_mod_barrier",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mod_barrier",
+  "parent":{
+    "name":"mod_barrier",
+    "path":"folders/Scripts/scr_module_spells/module_form/mod_barrier.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"spr_shooter",
-    "path":"folders/Sprites/spr_spells/spr_type/spr_shooter.yy",
+    "name":"projectle_spell",
+    "path":"folders/Sprites/spr_spells/projectle_spell.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
