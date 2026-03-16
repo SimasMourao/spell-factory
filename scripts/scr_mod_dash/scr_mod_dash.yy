@@ -6,7 +6,7 @@
   "name":"scr_mod_dash",
   "parent":{
     "name":"mod_dash",
-    "path":"folders/Scripts/scr_module_spells/module_type/mod_dash.yy",
+    "path":"folders/Scripts/spell_system/module_spells/module_effect/mod_dash.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"scr_mod_projectle",
   "parent":{
     "name":"mod_projectle",
-    "path":"folders/Scripts/scr_module_spells/module_form/mod_projectle.yy",
+    "path":"folders/Scripts/spell_system/module_spells/module_form/mod_projectle.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

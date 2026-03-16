@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_burn_effect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_burn_effect",
+  "parent":{
+    "name":"burn_effect",
+    "path":"folders/Scripts/spell_system/spell_effects/burn_effect.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -6,7 +6,7 @@
   "name":"scr_create_spell",
   "parent":{
     "name":"create_spell",
-    "path":"folders/Scripts/scr_general_use/create_spell.yy",
+    "path":"folders/Scripts/spell_system/create_spell.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

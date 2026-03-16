@@ -10,10 +10,9 @@ _left = keyboard_check(ord("A"));
 _right = keyboard_check(ord("D"));
 _click = mouse_check_button_released(mb_left);
 
-movement_player(spd, _right, _left, _up, _down, obj_spell_inst);
-
+movement_player(spd, _right, _left, _up, _down, obj_wall);
 
 if(_click)
 {
-	create_spell(id, [mod_pulse()]);
+	create_spell(id, [mod_dash()]);
 }

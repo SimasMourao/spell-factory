@@ -6,7 +6,7 @@
   "name":"scr_mod_fire",
   "parent":{
     "name":"mod_fire",
-    "path":"folders/Scripts/scr_module_spells/module_type/mod_fire.yy",
+    "path":"folders/Scripts/spell_system/module_spells/module_effect/mod_fire.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

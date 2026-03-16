@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dash_effect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dash_effect",
+  "parent":{
+    "name":"dash_effect",
+    "path":"folders/Scripts/spell_system/spell_effects/dash_effect.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

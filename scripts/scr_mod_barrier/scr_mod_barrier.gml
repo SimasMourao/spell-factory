@@ -3,27 +3,56 @@
 function mod_barrier(){
     return 
     {
-        name: "projectile",
+        name: "barrier",
+		
         damage_spell: 1,
         spell_spd: 0,
+		spell_durat: 180,
         
         on_create: function(_spell)
         {
 			_spell.sprite_index = spr_barrier_spell;
-            _spell.direction = point_direction(
-                _spell.origin_x,
-                _spell.origin_y,
-                _spell.target_x,
-                _spell.target_y
-            );
+           dir = floor((point_direction(_spell.origin_x, _spell.origin_y, _spell.target_x, _spell.target_y)-45) / 90);
+
+			switch(dir)
+			{
+				case 0:
+				image_angle = 0;
+				break;
+
+				case 1:
+				image_angle = 90;
+				break;
+	
+				case 2:
+				image_angle = 180;
+				break;
+	
+				case 3:
+				image_angle = 270;
+				break;
+			}
 			
-		//_spell.image_angle = direction;
+			_spell.is_barrier =  true;
+			_spell.solid = true;
+
         },
         
         on_step: function(_spell)
         {
-            _spell.x += lengthdir_x(spell_spd, _spell.direction);
-            _spell.y += lengthdir_y(spell_spd, _spell.direction);
-        }
-    };
+			with(_spell){
+				if(_spell.is_barrier)
+				{
+			
+					var hit = instance_place(_spell.x, _spell.y, par_entity);
+	
+					if(hit != noone)
+					{
+						hit.x = hit.xprevious;
+						hit.y = hit.yprevious;
+					}
+				}
+			}
+		}
+	};
 }

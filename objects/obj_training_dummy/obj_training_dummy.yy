@@ -12,8 +12,8 @@
     "path":"folders/Objects/obj_entitys/par_enemys/obj_enemys.yy",
   },
   "parentObjectId":{
-    "name":"par_enemy",
-    "path":"objects/par_enemy/par_enemy.yy",
+    "name":"par_entity",
+    "path":"objects/par_entity/par_entity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

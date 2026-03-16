@@ -6,7 +6,7 @@
   "name":"scr_mod_pulse",
   "parent":{
     "name":"mod_pulse",
-    "path":"folders/Scripts/scr_module_spells/module_form/mod_pulse.yy",
+    "path":"folders/Scripts/spell_system/module_spells/module_form/mod_pulse.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

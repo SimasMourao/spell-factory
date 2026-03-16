@@ -6,7 +6,7 @@
   "name":"scr_mod_barrier",
   "parent":{
     "name":"mod_barrier",
-    "path":"folders/Scripts/scr_module_spells/module_form/mod_barrier.yy",
+    "path":"folders/Scripts/spell_system/module_spells/module_form/mod_barrier.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

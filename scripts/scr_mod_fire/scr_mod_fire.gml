@@ -6,6 +6,7 @@ function mod_fire(){
         name: "fire",
         damage_spell: 1,
         spell_spd: 2,
+		spell_durat: 60,
         
         on_create: function(_spell)
         {

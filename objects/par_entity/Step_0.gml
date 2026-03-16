@@ -1,11 +1,13 @@
 depth = -y;
 
-
-
-_time_regen--;
-
-if(_time_regen <= 0)
+for(var i = array_length(status_effects)-1; i >= 0; i--)
 {
-	mana_regen();
-	 _time_regen = 1;
+	status_effects[i].on_step(id);
+	
+	status_effects[i].spell_durat--;
+	
+	if(status_effects[i].spell_durat <= 0)
+	{
+		array_delete(status_effects, i, 1);
+	}
 }

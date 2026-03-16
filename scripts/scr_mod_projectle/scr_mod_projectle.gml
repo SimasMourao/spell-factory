@@ -4,9 +4,10 @@ function mod_projectle(){
     return 
     {
         name: "projectile",
-        damage_spell: 1,
-        spell_spd: 5,
-        
+        spell_damage: 1,
+        spell_spd: 7,
+        spell_durat: 50,
+		
         on_create: function(_spell)
         {
 			_spell.sprite_index = spr_sphere;

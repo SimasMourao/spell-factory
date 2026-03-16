@@ -1,0 +1,3 @@
+function burn_effect(){
+
+}

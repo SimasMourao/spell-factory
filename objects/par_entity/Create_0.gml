@@ -17,6 +17,10 @@ current_mana = total_mana;
 target_x_caster = noone;
 target_y_caster = noone;
 
+
+status_effects = [];
+
+#region // CICLO DE VIDA E MANA 
 take_damage = function (_amount)
 {
 	current_life -= _amount
@@ -33,7 +37,6 @@ death = function ()
 }
 
 
-
 mana_regen = function ()
 {
 	if(current_mana < total_mana)
@@ -47,3 +50,4 @@ mana_cost = function(_amount)
 	current_mana -= _amount
 	
 }
+#endregion
