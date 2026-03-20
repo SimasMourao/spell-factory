@@ -68,13 +68,15 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 ### Fluxogramas
 **Fluxogramas baseadod em diagramas de atividade (UML), representando o fluxo de execução do sistema de feitiços**
-#### Fluxo de execução dos módulos:
-<img width="961" height="371" alt="fluxograma_modulos" src="https://github.com/user-attachments/assets/1abee690-e334-4f95-9c40-41da9f3c75ec" />
-#### Fluxo de aplicação de efeitos:
-<img width="989" height="319" alt="fluxograma_efeitos" src="https://github.com/user-attachments/assets/5b23e0ee-06b7-4988-a7c2-58ebb5a0f907" />
-#### Fluxo de ciclo de vida dos feitiços:
-![fluxograma_feiticos](https://github.com/user-attachments/assets/c629fd14-6dee-4409-972f-ca7337416c8d)
 
+#### Fluxo de execução dos módulos:
+<img width="961" height="371" alt="fluxograma_modulos" src="https://github.com/user-attachments/assets/89ca6c1e-c482-42bc-b683-a54ca380b41f" />
+
+#### Fluxo de aplicação de efeitos:
+<img width="989" height="319" alt="fluxograma_efeitos" src="https://github.com/user-attachments/assets/bcdcabc3-bad6-4993-b568-0487464e8775" />
+
+#### Fluxo de ciclo de vida dos feitiços:
+<img width = "" height = "781" alt = "fluxograma_feiticos" scr = "https://github.com/user-attachments/assets/7a56c4f3-47b2-4524-997a-ae7b629d67da" />
 
   
 ---
