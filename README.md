@@ -52,19 +52,30 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 ---
 ## 🏗️ Arquitetura
 
-#### Responsabilidades
+### Responsabilidades
 
       par_entity — representar a classe base de todos os objetos com vida e mana
       
-      obj_player — controlar movimento, ataque e criar instância do obj_spell_inst
+      obj_player — controlar estados do jogador
       
-      obj_hud — apresentar os parâmetros do jogador
-      
-      obj_create_spell — armazenar os módulos dos feitiços
+      obj_hud — apresentar os atributos do jogador  
       
       obj_spell_inst — executar o feitiço
       
       scr_mod_* — modificar estados, adcionar comportamento e registrar eventos
+      
+      scr_create_spell — armazenar os módulos dos feitiços e criar instânicas do obj_spell_inst
+
+### Fluxogramas
+**Fluxogramas baseadod em diagramas de atividade (UML), representando o fluxo de execução do sistema de feitiços**
+#### Fluxo de execução dos módulos:
+<img width="961" height="371" alt="fluxograma_modulos" src="https://github.com/user-attachments/assets/1abee690-e334-4f95-9c40-41da9f3c75ec" />
+#### Fluxo de aplicação de efeitos:
+<img width="989" height="319" alt="fluxograma_efeitos" src="https://github.com/user-attachments/assets/5b23e0ee-06b7-4988-a7c2-58ebb5a0f907" />
+#### Fluxo de ciclo de vida dos feitiços:
+![fluxograma_feiticos](https://github.com/user-attachments/assets/c629fd14-6dee-4409-972f-ca7337416c8d)
+
+
   
 ---
 ## 🕹️ Controles
@@ -101,21 +112,26 @@ Spell Factory é um sistema de criação modular de feitiços que permite ao jog
 
 #### Engine:
 
-      GameMaker Studio 2 - versão 2024.14.2.213
+  * GameMaker Studio 2 - versão 2024.14.2.213
 
 #### Linguagem:
 
-      GML (GameMaker Language)  
+  * GML (GameMaker Language)  
+
+### Ferramentas:
+
+  * Aseprite - criação de sprites e animação;
+  * Draw.io - modelagem de diagramas e arquitetura    
 
 #### Paradigmas:
    
-      Separação de responsabilidade
- 
-      Sistema modular orientado a componentes
- 
-      Programação orientada a eventos
- 
-      Estrutura orientada a dados
+  * Separação de responsabilidade
+
+  * Sistema modular orientado a componentes
+
+  * Programação orientada a eventos
+
+  * Estrutura orientada a dados
   
  ---
 ## 📖 Roteiro
