@@ -7,7 +7,7 @@ function offset_caster(_caster, _target_x, _target_y){
 
 	return 
 	{
-		x: lengthdir_x(25, _angle),
-		y: lengthdir_y(25, _angle)
+		x: lengthdir_x(32, _angle),
+		y: lengthdir_y(32, _angle)
 	}
 }

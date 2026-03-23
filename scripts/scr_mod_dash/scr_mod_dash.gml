@@ -5,6 +5,7 @@ function mod_dash(){
 	{
 		name: "dash",
 		mana_cost: 5,
+		spell_durat: 0,
 		
 		on_create: function(_spell)
         {
@@ -15,7 +16,6 @@ function mod_dash(){
 			
 			apply_effect(caster_dash, dash_effect(dir));
 			
-			instance_destroy(_spell);
         },
         
 	};

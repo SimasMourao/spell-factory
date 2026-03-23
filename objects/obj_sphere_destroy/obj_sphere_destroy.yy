@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sphere_destroy",
-    "path":"sprites/spr_sphere_destroy/spr_sphere_destroy.yy",
+    "name":"spr_projectle_destroy",
+    "path":"sprites/spr_projectle_destroy/spr_projectle_destroy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

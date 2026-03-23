@@ -1,5 +1,10 @@
 draw_self();
 
+for(var i = 0; i < array_length(status_effects); i++)
+{
+    draw_text(x, y + 100 - (i * 15), status_effects[i].effect_durat);
+}
+
 if(is_enemy == true && is_solid = true){
 	
 	

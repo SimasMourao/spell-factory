@@ -1,4 +1,4 @@
-modules = [];
+modules = 0;
 
 total_duration = 0;
 total_damage = 0;

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trail",
-    "path":"sprites/spr_trail/spr_trail.yy",
+    "name":"spr_projectle_trail",
+    "path":"sprites/spr_projectle_trail/spr_projectle_trail.yy",
   },
   "spriteMaskId":null,
   "visible":true,

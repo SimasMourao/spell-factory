@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sphere",
+  "%Name":"obj_spell_efx",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sphere",
+  "name":"obj_spell_efx",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_sphere_spell",
-    "path":"folders/ARCHIVE/obj_spells/obj_sphere_spell.yy",
+    "name":"spell_efx",
+    "path":"folders/Objects/obj_spells/spell_efx.yy",
   },
-  "parentObjectId":{
-    "name":"par_spells",
-    "path":"objects/par_spells/par_spells.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_projectle",
-    "path":"sprites/spr_projectle/spr_projectle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

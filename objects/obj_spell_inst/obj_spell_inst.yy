@@ -11,8 +11,8 @@
   "name":"obj_spell_inst",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_spells",
-    "path":"folders/Objects/obj_spells.yy",
+    "name":"spell_inst",
+    "path":"folders/Objects/obj_spells/spell_inst.yy",
   },
   "parentObjectId":null,
   "persistent":false,

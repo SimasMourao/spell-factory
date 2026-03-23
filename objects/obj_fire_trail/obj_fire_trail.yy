@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_fire_trail",
-    "path":"sprites/spr_fire_trail/spr_fire_trail.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
